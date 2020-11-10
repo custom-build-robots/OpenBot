@@ -114,7 +114,7 @@ Our robot body relies on readily available hobby electronics. We provide links f
 8. Follow steps 19-20 from the DIY option.
 
 #### Option 3: OLED display
-The OLED display with the chip SSD1306 is connected via the I2C bus with the Arduino Nano. To connect the display with the Arduino Nano you need two female-2-female jumper wires and two female-to-male jumper wires. The displays with its four pins (VIN, GND, SDA, SCL) is directly connected to the Arduino Nano.
+The OLED display with the chip SSD1306 is connected via the I2C bus with the Arduino Nano. To connect the display with the Arduino Nano you need two female-2-female jumper wires and two female-to-male jumper wires. The displays with its four pins (VIN, GND, SDA, SCL) is directly connected to the Arduino Nano (SCL/SDA) and 5V / GND.
 
 1. Connect the GND pin of the display with one GND of the OpenBot like the GND of the motor driver with a female-to-male jumper wire.
 2. Connect the VIN pin of the OLED display with the 5V out of the motor driver with a female-to-male jumper wire.
